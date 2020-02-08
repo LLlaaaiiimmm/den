@@ -213,6 +213,7 @@ td {
 	background-image:  url(img/00.jpg);
 	 background-repeat: no-repeat;
      background-size: 100% 100%;
+     width: 1500px;
 
 }
 .departure_area td:first-child {
@@ -221,4 +222,9 @@ td {
 }
 .main td:first-child {
 	border-left:4px solid orange;
+}
+
+.m-auto {
+	margin: auto;
+	width: 910px;
 }

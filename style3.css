@@ -214,6 +214,7 @@ td {
 	background-image:  url(img/legue-championov.jpg);
 	 background-repeat: no-repeat;
      background-size: 100% 100%;
+     width: 1500px;
 
 }
 .departure_area td:first-child {
