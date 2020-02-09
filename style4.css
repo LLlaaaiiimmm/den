@@ -17,6 +17,7 @@ html {
 	font-weight: 600;
 }
 
+/*20200208: этот же код уже есть в style3.css. Возможно, есть смысл создать общий файл *.css и его подключить ко всем страницам. А те стили, которые отличаются - оставить в разных файлах*/
 .nav-wrapper {
 	height: 100px;
 	display: flex;
@@ -35,6 +36,7 @@ html {
 	/*max-width: 1200px;
 	background-color: white;*/
 	align-items: center;
+	width: 35px;
 }
 
 .nav-link {
@@ -209,6 +211,7 @@ td {
 	color: black;
 }
 
+/*20200208: этот же код уже есть в style3.css. Возможно, есть смысл создать общий файл *.css и его подключить ко всем страницам. А те стили, которые отличаются - оставить в разных файлах*/
 .nav-wrapper {
 	background-image:  url(img/00.jpg);
 	 background-repeat: no-repeat;

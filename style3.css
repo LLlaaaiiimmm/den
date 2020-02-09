@@ -17,6 +17,37 @@ html {
 	font-weight: 600;
 }
 
+body {
+	background-image: url(img/2_pole_sochi.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.someClass {
+	text-align:justify;
+	font-size: 15px;
+	padding: 16px;
+	border: 3px;
+	border-color: white;
+	border-style: solid;
+	border-radius: white 23px;
+	outline: 3px solid black;
+	max-width: 1200px;
+	width: 90%;
+	background: #F9FBFB;
+	opacity: 0.9;
+	border-radius: 16px;
+	margin: auto;
+	line-height: 16px;
+	letter-spacing: -0.015em;
+}
+
+.d-flex {
+	display: flex;
+	
+}
+
 .nav-wrapper {
 	height: 100px;
 	display: flex;
@@ -210,11 +241,12 @@ td {
 	color: black;
 }
 
+/*20200208: уже есть определение этого класса на строке №20*/
 .nav-wrapper {
 	background-image:  url(img/legue-championov.jpg);
 	 background-repeat: no-repeat;
      background-size: 100% 100%;
-     width: 1500px;
+     width: 1500px;/*20200208: слишком много, максимум - 1200px*/
 
 }
 .departure_area td:first-child {
@@ -226,5 +258,4 @@ td {
 }
 .m-auto {
 	margin:auto;
-	width: 910px;
 }
