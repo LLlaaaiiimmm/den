@@ -248,5 +248,12 @@ td {
 	border-left:4px solid orange;
 }
 .m-auto {
-	margin:auto;
+	padding: 5px; 
+    border: solid 1px black; 
+    float: left; 
+    position: relative; 
+    top: 40px; 
+   left: 100px;
+   max-width:1200px;
+
 }
