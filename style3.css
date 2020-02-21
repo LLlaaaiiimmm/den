@@ -22,7 +22,7 @@ html {
 .nav-wrapper {
     height: 100px;
     display: flex;
-
+    margin: auto;
     /*position: absolute;*/
     align-items: left;
     justify-content: space-between;
@@ -37,6 +37,7 @@ html {
     background-color: white;*/
     align-items: center;
     width: 35px;
+    margin: auto;
 }
 
 .nav-link {
